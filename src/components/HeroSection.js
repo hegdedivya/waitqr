@@ -14,7 +14,7 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSie="btn--large"
         >
-          ORDER NOW
+          WRITE FOR US
         </Button>
         <Button
           className="btns"
@@ -22,7 +22,7 @@ function HeroSection() {
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          WATCH TRAILER <i className="far fa-play-circle" />
+          ORDER NOW <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
