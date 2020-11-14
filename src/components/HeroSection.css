@@ -1,13 +1,6 @@
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
 .hero-container {
-  /*background: url('/images/waitqrlogo.png') center center/cover no-repeat; */
+  background: url("https://tse1.mm.bing.net/th?id=OIP.RPENWK2NUWC4yZ1vuQGaNQHaEo&pid=Api&P=0&w=255&h=160")
+    center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;

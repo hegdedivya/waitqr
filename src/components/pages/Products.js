@@ -2,5 +2,5 @@ import React from "react";
 import "../../App.css";
 
 export default function Products() {
-  return <h1 className="products">CONTACT</h1>;
+  return <h1 className="products">SIGN UP</h1>;
 }
