@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./SignUp.css";
-import { db } from "../firebase";
+import { db } from "../../firebase";
 const SignUp = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -22,6 +22,7 @@ const SignUp = () => {
       .then(() => {
         setLoader(false);
         alert("Your message has been submitted👍");
+        setLoader(false);
       })
       .catch((error) => {
         alert(error.message);
@@ -35,7 +36,7 @@ const SignUp = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us 🤳</h1>
+      <h1 className="sign-up">Contact Us 🤳</h1>
 
       <label>Name</label>
       <input
