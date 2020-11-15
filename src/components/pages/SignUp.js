@@ -21,7 +21,7 @@ const SignUp = () => {
       })
       .then(() => {
         setLoader(false);
-        alert("Your message has been submitted👍");
+        alert("Your message has been submitted");
         setLoader(false);
       })
       .catch((error) => {
@@ -36,7 +36,7 @@ const SignUp = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1 className="sign-up">Contact Us 🤳</h1>
+      <h1 className="sign-up">Contact Us</h1>
 
       <label>Name</label>
       <input
