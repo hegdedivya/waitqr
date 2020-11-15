@@ -20,3 +20,4 @@ Anyone that ha access to the QR code can scan it to access the website.
 https://drive.google.com/file/d/1n4JhGV_QmyircpGqnocoyfOmHA_DwiNS/view?usp=sharing
 
 ## Live Demo
+https://waitqrwebhost.web.app
