@@ -5,18 +5,18 @@ import AboutCardItem from "./AboutCardItem";
 function ServicesCards() {
   return (
     <div className="cards">
-      <h1>What is WAITQR?</h1>
+      <h1>Today's Menu</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <AboutCardItem
-              src="images/img-9.jpg"
+              src="images/appetizers.jpg"
               text="Lipsmacking sizzlers and appetizers."
               label="Starters"
               path="/"
             />
             <AboutCardItem
-              src="images/img-2.jpg"
+              src="images/indian.jpg"
               text="Indian, Chinese, Mexican and more!"
               label="Main Course"
               path="/"
@@ -24,27 +24,33 @@ function ServicesCards() {
           </ul>
           <ul className="cards__items">
             <AboutCardItem
-              src="images/img-3.jpg"
-              text="I scream you scream we ALL scream for icecream."
-              label="Icecreams"
-              path="/"
-            />
-            <AboutCardItem
-              src="images/img-4.jpg"
+              src="images/rasgulla.jpg"
               text="Rasgulla to mysore pak we've got you covered!"
               label="Desert"
               path="/"
             />
             <AboutCardItem
-              src="images/img-8.jpg"
+              src="images/icecream.jpg"
+              text="I scream you scream we ALL scream for icecream."
+              label="Icecreams"
+              path="/"
+            />
+            <AboutCardItem
+              src="images/snack.jpg"
               text="Delhi chat and more!"
               label="Snacks"
               path="/sign-up"
             />
             <AboutCardItem
-              src="images/img-8.jpg"
+              src="images/coffee.jpg"
               text="Tea or Coffee?"
               label="Beverages"
+              path="/sign-up"
+            />
+            <AboutCardItem
+              src="images/smoothie.jpg"
+              text="Milkshakes and smoothies?"
+              label="Drinks"
               path="/sign-up"
             />
           </ul>

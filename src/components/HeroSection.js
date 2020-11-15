@@ -14,7 +14,7 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSie="btn--large"
         >
-          ABOUT US
+          KNOW MORE
         </Button>
         <Button
           className="btns"

@@ -29,34 +29,29 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/products">How it works</Link>
+            <Link to="/">Privacy Policy</Link>
+            <Link to="/">Terms of Use</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/products">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Hotels</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/sign-up">Contact</Link>
+            <Link to="/">Privacy Policy</Link>
+            <Link to="/">Terms of Use</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <h2>Partners</h2>
+            <Link to="/">Sponsors</Link>
+            <Link to="/">Investors</Link>
+            <Link to="/">Owners</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <h2>Legal</h2>
+            <Link to="/">Privacy Policy</Link>
+            <Link to="/">Terms of Use</Link>
+            <Link to="/">Disclaimer</Link>
           </div>
         </div>
       </div>
@@ -72,7 +67,7 @@ function Footer() {
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/"
+              to="https://facebook.com"
               target="_blank"
               aria-label="Facebook"
             >
@@ -80,7 +75,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="https://instagram.com"
               target="_blank"
               aria-label="Instagram"
             >
@@ -88,7 +83,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/"
+              to="https://youtube.com"
               target="_blank"
               aria-label="Youtube"
             >
@@ -96,7 +91,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="https://twitter.com"
               target="_blank"
               aria-label="Twitter"
             >
@@ -104,7 +99,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="https://linkedin.com"
               target="_blank"
               aria-label="LinkedIn"
             >
