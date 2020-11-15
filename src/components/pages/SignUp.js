@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./SignUp.css";
 import { db } from "../../firebase";
+import Footer from "../Footer";
 const SignUp = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -35,37 +36,39 @@ const SignUp = () => {
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <>
       <h1 className="sign-up">Contact Us</h1>
+      <form className="form" onSubmit={handleSubmit}>
+        <label>Name</label>
+        <input
+          placeholder="Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
 
-      <label>Name</label>
-      <input
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
+        <label>Email</label>
+        <input
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-      <label>Email</label>
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
+        <label>Message</label>
+        <textarea
+          placeholder="Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
 
-      <label>Message</label>
-      <textarea
-        placeholder="Message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-
-      <button
-        type="submit"
-        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-      >
-        Submit
-      </button>
-    </form>
+        <button
+          type="submit"
+          style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
+        >
+          Submit
+        </button>
+      </form>
+      <Footer />
+    </>
   );
 };
 
