@@ -1,4 +1,4 @@
-# WAITQR
+# WAITQR By Kernel Panic
 ###     -Hassle Free Order
 
 
